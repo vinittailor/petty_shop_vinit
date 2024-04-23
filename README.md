@@ -1,16 +1,45 @@
-# petty_shop_vinit
+# petty_shop_vinit with Local Storage and Provider
 
-A new Flutter project.
+This Flutter application showcases fetching random dog images from the https://dog.ceo/api/breeds/image/random API, displaying them on the home page, storing viewed images locally, and adding images to a simulated cart with prices. It leverages Provider for state management and SQLite for local storage, providing a solid foundation for further development.
 
-## Getting Started
+### Features:
 
-This project is a starting point for a Flutter application.
+* Fetches random dog images on demand.
+* Displays the fetched image on the home page.
+* Provides a button to fetch a new image.
+* Stores previously viewed images in a local SQLite database.
+* Offers a "History" page to view stored images.
+* Implements a simulated cart functionality with the ability to add images and specify prices.
+* Leverages Provider for state management and SQLite for local storage, demonstrating best practices for Flutter development.
 
-A few resources to get you started if this is your first Flutter project:
+### Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the Repository: Use git clone [https://github.com/your-username/random-dog-app.git](https://github.com/vinittailor/petty_shop_vinit.git) to clone this repository.
+Install Dependencies: Navigate to the project directory and run flutter pub get to install required packages.
+Run the App: Run flutter run to start the application on your connected device or emulator.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Technologies Used:
+
+* Flutter: Cross-platform app development framework
+* Provider: State management for Flutter
+* sqflite: SQLite database implementation for Flutter
+* http: HTTP client for making API requests (consider using dio for advanced features in the future)
+
+### Potential Enhancements:
+
+* Implement a more robust cart and checkout system.
+* Explore user authentication for personalized storage.
+* Add image filtering or search functionality.
+* Integrate with a dog adoption service (with user consent and ethical practices).
+
+### Contribution
+
+Feel free to fork this repository, make improvements, and submit pull requests to contribute to the project.
+
+
+# Example
+
+
+
+https://github.com/vinittailor/petty_shop_vinit/assets/108751165/55a3d0e4-2507-4b39-a4aa-64323a41614c
+
